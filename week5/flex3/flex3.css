@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 30px;
+    background:#eee;
+}
+
+.menu span{
+    margin-left:20px;
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#39b5ac;
+    height:220px;
+    color:white;
+}
+
+.hero-box{
+    text-align:center;
+}
+
+.hero-box img{
+    width:70px;
+    margin-bottom:10px;
+}
+
+.content{
+    display:flex;
+    gap:40px;
+    padding:40px;
+    background:#eee;
+}
+
+.col{
+    flex:1;
+}
+
+/* MAIN FIX HERE */
+.images{
+    display:grid;
+    grid-template-columns: repeat(2, 80px);
+    justify-content:center;
+    gap:15px;
+    background:#39b5ac;
+    padding:20px;
+    width: fit-content;
+}
+
+.images img{
+    width:60px;
+}

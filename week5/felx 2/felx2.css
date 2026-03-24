@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.top-text{
+    padding:10px 20px;
+    background-color:#eee;
+}
+
+.banner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#e60000;
+    color:white;
+    padding:60px 40px;
+}
+
+.left h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.left p{
+    max-width:500px;
+}
+
+.right{
+    background-color:#ff1a1a;
+    padding:40px;
+}
+
+.bottom{
+    display:flex;
+}
+
+.box{
+    flex:1;
+    padding:30px;
+    background-color:#660000;
+    color:white;
+    border-right:2px solid #e60000;
+}
